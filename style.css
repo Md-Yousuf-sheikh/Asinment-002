@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Font Family */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+/*==================== Header Section Start =====================*/
+header{
+    height: 50px;
+    background-color: #2D25A0;
+}
+
+/*==================== Top Section  Start =====================*/
+
+#topSection{
+    background-color: #2D25A0;
+    padding: 0px 10px 86px 10px;
+}
+
+.topArticle{
+    display: flex;
+    justify-content: space-between;
+}
+.topTitle h1{
+    font-size: 64px;
+    color: #fff;
+    font-weight: 700;
+    width: 485px;
+    font-family: 'Poppins', sans-serif;
+}
+.topTitle button {
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.topTitle button:hover {
+    background-color: #ff1ee3;
+    border: 2px solid;
+    border-color: white #62ff00;
+}
+.topTitle button i{
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.top_img img{
+    width: 554px;
+    height: 438px;
+}
+
+/*====================== player Section Start====================== */
+
+#playerSection{
+    padding: 30px 0px;
+}
+.players_Id{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    height: 474px;
+    width: 330px;
+    background-color: #fff;
+    margin: 15px;
+    text-align: center;
+    padding: 18px 8px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px #ddd;
+}
+/* .player:hover .player_profile{
+    transform:scale(1.2)
+} */
+.player_profile{
+    width: 300px;
+    height: 256px;
+    border-radius: 05px;
+}
+.player_name{
+    float: left;
+    padding-left: 5px;
+}
+.player_about{
+    float: left;
+    padding-left: 5px;
+    text-align: justify;
+    color: #6C6C6C;
+}
+
+/*=====================Hilight Section Start================*/
+
+#higlite_section{
+    padding: 50px 0px;
+}
+.higlite{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about h1{
+    height: 120px;
+    width: 469px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.about p{
+    height: 113px;
+    width: 404px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6C6C6C;
+
+
+}
+.about button{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.about button i{
+    padding-left: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hilight_match{
+    width: 567px;
+    height: 427px;
+}
+/* ===============Footer Section Start=================== */
+
+.foot_main{
+    text-align: center;
+}
+.foot_main .foot_logo img{
+    height: 110px;
+    width: 483px;
+    margin-top: 200px;
+}
+.SocalNetork a{
+    line-height: 80px;
+}
+.SocalNetork a i {
+    width: 32px;
+    height: 32px;
+    font-size: 17px;
+    background: #969BAB;
+    line-height: 32px;
+    border-radius: 50px;
+}
+.foot_copyright h3{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:360px) {
+    .container {
+        width: 350px;
+    }
+
+    .topTitle h1 {
+        font-size: 36px;
+        width: 278px;
+        height: 138px;
+    }
+    .topArticle {
+        display: block;
+        line-height: 60px;
+        overflow: hidden;
+    }
+    .top_img img {
+        width: 329px;
+        height: 259px;
+        margin-top: 50px;
+    }
+    .players_Id {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .player {
+        padding: 16px 0px;
+        margin: 15px 10px;
+    }
+    .player_name {
+        float: left;
+        padding-left: 15px;
+    }
+    .player_about {
+        color: #6C6C6C;
+        padding: 0px 15px;
+    }
+    
+    /* Higlite Section mobil */
+    .higlite {
+        display: block;
+    }
+    .about h1 {
+        height: 80px;
+        width: 292px;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 0px 10px;
+    }
+    .about p {
+        height: 143px;
+        width: 329px;
+        font-size: 16px;
+        line-height: 28px;
+        padding: 30px 10px 10px 10px;
+    }
+
+    .hilight_match {
+        width: 328px;
+        height: 248px;
+        margin-top: 20px;
+        padding-left: 10px;
+    }
+    .foot_main .foot_logo img {
+        height: 63px;
+        width: 275px;
+        margin-top: 36px;
+    }
+    .about button {
+        margin-left: 10px;
+    }
+
+}
